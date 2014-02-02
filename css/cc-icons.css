@@ -1,0 +1,32 @@
+.cc-icon {
+  background-image: url(../img/cardicons-sprite.png);
+  background-repeat: no-repeat;
+  width: 47px;
+  height: 34px;
+}
+
+.cc-icon.visa       { background-position: 0 0; }
+.cc-icon.amex       { background-position: -47px 0; }
+.cc-icon.mastercard { background-position: -94px 0; }
+.cc-icon.han-solo   { background-position: -142px 0; }
+.cc-icon.maestro    { background-position: -189px 0; }
+.cc-icon.discover   { background-position: 0 -34px; }
+.cc-icon.jcb        { background-position: -47px -34px; }
+.cc-icon.diners     { background-position: -94px -34px; }
+.cc-icon.paypal     { background-position: -142px -34px; }
+.cc-icon.cash       { background-position: -189px -34px; }
+.cc-icon.ach        { background-position: 0 -68px; }
+.cc-icon.credit     { background-position: -47px -68px; }
+.cc-icon.debit      { background-position: -94px -68px; }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), 
+       only screen and (min-device-pixel-ratio: 2) {
+  .cc-icon {
+    /* Reference the @2x Sprite */
+    background-image: url(../img/cardicons-sprite@2x.png);
+    /* Translate the @2x sprite's dimensions back to 1x */
+    background-size: 103px 76px; 
+    width: 103px;
+    height: 76px;
+  }
+}
