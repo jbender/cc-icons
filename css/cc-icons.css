@@ -25,8 +25,6 @@
     /* Reference the @2x Sprite */
     background-image: url(../img/cardicons-sprite@2x.png);
     /* Translate the @2x sprite's dimensions back to 1x */
-    background-size: 103px 76px; 
-    width: 103px;
-    height: 76px;
+    background-size: 236px 101px;
   }
 }
